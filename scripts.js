@@ -102,6 +102,7 @@ function get_string(){
   if(invalid.length>0){
     alert(`Þú gafst upp stafi sem ekki er hægt að ${action}: ${invalid.join(', ')}. Reyndu aftur`);
     get_string();
+    console.log(2+3);
   }
 }
 function code_string(){
